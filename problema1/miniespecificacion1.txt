@@ -1,0 +1,23 @@
+1.Inicio
+//declaro variables
+2.costokilovatiohora, d[0,n]
+3.kilovatiosconsumidos, d[0,n]
+4.plantilla, d[0,n]
+5.porcentaje, d[0,n]
+6.descuento, d[0,n]
+7.porcentaje <-- 10
+// pido datos por teclado - entradas
+8.Escribir "Ingrese el costo kilovatio/hora"
+9.Leer costokilovatiohora
+10.Escribir "Ingrese los kilovatios consumidos"
+11.Leer kilovatiosconsumidos
+
+12.plantilla = kilovatiohora*kilovatios consumidos
+13.Si edad > 65 entonces
+// plantilla ----100%
+// x         ---- 20%
+14.descuento <--  (porcentaje*plantilla)/100
+15.plantilla <-- plantilla-descuento
+16. Fin si
+17.Escribir "Elvalor de la plantilla es:"+ plantilla
+18.Fin

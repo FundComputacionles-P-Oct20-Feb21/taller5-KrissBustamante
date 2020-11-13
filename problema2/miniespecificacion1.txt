@@ -1,0 +1,23 @@
+1.Inicio
+//declaro las variables
+2.preciounitario, d[0,n]
+3.cantidades, d[0,n]
+4.costodelpedido, d[0,n]
+5.porcentaje, d[0,n]
+6.descuento, d[0,n]
+
+7.porcentaje <--15
+
+// pido datos por teclado - entradas
+8.Escribir "Ingrese el precio unitario"
+9.Leer preciounitario
+10.Escribir "Ingrese las cantidades"
+11.Leer cantidades
+12.costodelpedido = preciounitario*cantidades
+
+13. si cantidades > 50 entonces
+14.descuento <-- (porcentaje*costodelpedido)/100
+15.costodelpedido <-- costodelpedido-descuento
+16. Fin si
+17.Escribir "El costo del pedido es:"+costodelpedido
+18.Fin 

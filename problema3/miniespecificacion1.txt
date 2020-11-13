@@ -1,0 +1,43 @@
+1.Inicio
+//declaro las variables
+2.dias, d[0,n]
+3.porcentaje1, d[0,n]
+4.porcentaje2, d[0,n]
+5.porcentaje3, d[0,n]
+6.preciodiario, d[0,n]
+7.subtotal, d[0,n]
+8.descuento, d[0,n]
+9.total, d[0,n]
+
+
+10. porcentaje1 <--10
+11. porcentaje2 <--15
+12. porcentaje3 <-- 20
+
+
+
+// pido datos por teclado - entradas
+13.Escribir "Ingrese los dias"
+14.Leer dias
+15.Escribir "Ingrese el precio diario"
+16.Leer preciodiario
+
+17.subtotal = preciodiario*dias
+
+18.si dias > 5 entonces
+19.descuento <-- (porcentaje1*subtotal)/100
+20.total <--subtotal-descuento
+21.Fin si
+
+22.si dias > 10 entonces 
+23.descuento <-- (porcentaje2*subtotal)/100
+24.total <--subtotal-descuento
+25.Fin si
+
+26.si dias > 15 entonces
+27.descuento <-- (porcentaje3*subtotal)/100
+28.total <--subtotal-descuento
+29.Fin si 
+
+30.Escribir "El total a pagar es: "+ total
+31.Fin 
